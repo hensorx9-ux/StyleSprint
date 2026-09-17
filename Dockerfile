@@ -1,5 +1,5 @@
 # Use an official NVIDIA CUDA runtime as a base image for GPU support
-FROM nvidia/cuda:11.0-base
+FROM python:3.10-slim
 
 # Set the working directory in the container to /app
 WORKDIR /app
